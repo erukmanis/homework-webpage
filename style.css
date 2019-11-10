@@ -5,61 +5,68 @@ body {
     }
 
 .innersection {
-    width:1900px;
-    align: center;
-}
+    width: 900px;
+    margin: auto;
+    }
 
 .topnav {
         text-align: center;
-        
-}
+        padding: 20px;
+        background-color: rgb(168, 66, 66);
+    }
 
 .topnav a {
     float: center;
     text-align: center;
-    padding: 14px 16px;
+    margin: 15px;
     font-size: 17px;
-    
-  }
-
+    color: white;
+      }
+  
   #h1 {
       margin: 50px;
   }
 
-  .about1 {
-      width:500px;
-      height: 300px;
-      float: left;
-  }
-.about2 {
-    width:500px;
+  
+
+  
+
+  .table {
+    display: table;
     height: 300px;
-    float: right;
-}
-
-.about3 {
     
-}
-
-.mainsize {
-    width: 1000px;
-    height: 350px;
-    
-}
-
-
-  h2 {
-      margin: 60px
+ 
   }
 
-header {
+.about1 {
+
+      display: table-cell;
+      
+        }
+
+.about2 {
+
+    display: table-cell;
+    
+}
+
+
+
+h2 {
+      margin: 60px;
+}
+
+h3 { 
+    margin-left: 30px;
+}
+
+.headertext {
     
     font-size: 50px;
-    font-style: italic;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-style: italic;  
     color: rgb(61, 61, 61);
-       
+    margin-top: 50px;
+
 }
 
 
@@ -69,28 +76,36 @@ li {
 
 .headerdiv {
     margin: 30px 0 30px 0px;
-    height: 210px;
-    width: 2000px;
+    height: 400px;
+    text-align: center;
+    
     
 }
 
 .headerimage {
-    height: 150px;
+    height: 100px;
     border: silver solid 5px;
     border-radius: 5%;
     margin: 10px;
     
 }
 
+.mainclass{
+
+    margin-bottom: 100px;
+}
+
 main {
         font-size: 25px;
         font-style: italic;
         color: rgb(61, 61, 61);
-        width: 2000px;
+        width: 900px;
+        margin-bottom: 50px;
 }
 
-p{
-    margin:30px;
+p {
+    margin-top:30px;
+    margin-bottom: 100px;
     }
 
 .top { 
@@ -99,8 +114,23 @@ p{
 
 }
 
-.parapics {
-    height:200px;
-    
+.information {
+    height: 4000px;
 }
+
+.pic {
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    border: silver solid 5px;
+    border-radius: 5%;
+}
+
+.footerstyle {
+    height: 30px;
+    background-color: rgb(168, 66, 66);
+    color: white;
+    text-align: center;
+}
+
 
